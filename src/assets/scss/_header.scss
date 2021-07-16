@@ -53,9 +53,9 @@
             }
 
             .name {
-                border: 1px solid #cecede;
+                border: 2px solid #cecede;
                 border-radius: 100px;
-                padding: 5px;
+                padding: 12px;
                 font-size: 16px;
                 background-color: #fafafa;
             }
@@ -305,6 +305,7 @@
                         border: 0.3px solid #cecede;
                         border-radius: 10px;
                         background-color: #ffffff;
+                        margin-left: 50px;
                         //  padding: 20px;
 
                         .title-holder {
@@ -594,184 +595,184 @@
     }
 }
 
-// .App {
-//     // padding: 0vw 20vw;
-//     // width: 70vw;
-//     // display: flex;
-//     // justify-content: center;
-//     // align-items: center;
-//     // flex-direction: column;
-// }
+.App {
+    // padding: 0vw 20vw;
+    // width: 70vw;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+}
 
 
-// @media screen and (max-width: 600px) {
-//     body {
-//         position: relative;
-//         top: 0%;
-//         bottom: 0%;
-//         right: 10%;
-//         left: 0%;
-//     }
+@media screen and (max-width: 600px) {
+    body {
+        position: relative;
+        top: 0%;
+        bottom: 0%;
+        right: 10%;
+        left: 0%;
+    }
 
-//     .App {
-//         overflow: hidden;
-//         position: relative;
-//         width: 100%;
-//     }
+    .App {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
 
-//     .parent {
-//         width: 100vw;
-//         padding: 20px 0px;
-
-
-
-//         .parent-child {
-//             display: flex;
-//             flex-direction: column;
-
-//             .menu-item {
-//                 width: 100vw;
-//                 height: 61px;
-
-//                 .active {
-//                     padding-bottom: 30px;
-//                     text-align: center;
-//                 }
-
-//             }
-
-//             .image-arrow-child {
-//                 width: 100%;
-//                 margin: 20px;
-//             }
-//         }
-//     }
-
-//     .workspace {
-//         overflow: hidden;
-//         position: relative;
-//         padding: 0px;
-//         margin: 0px;
-
-//         .purpose {
-//             width: 100%;
-//         }
-
-//         .content {
-//             flex-direction: column;
-//             width: 100%;
-
-//             .content-2 {
-//                 width: 100vw;
-
-//                 .sub-child-2 {
-//                     .goal-holder {
-//                         flex-direction: column;
-//                         height: 35vh;
+    .parent {
+        width: 100vw;
+        padding: 20px 0px;
 
 
-//                         select {
-//                             flex: 2;
-//                             height: 200px;
-//                         }
 
-//                         .p1 {
-//                             margin: 12px 0px;
-//                         }
-//                     }
+        .parent-child {
+            display: flex;
+            flex-direction: column;
 
-//                     .search-holder {
-//                         .pen {
-//                             width: 90%;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+            .menu-item {
+                width: 100vw;
+                height: 61px;
 
-// @media screen and (max-width: 768px) {
-//     .parent {
+                .active {
+                    padding-bottom: 30px;
+                    text-align: center;
+                }
 
-//     }
+            }
 
-//     .workspace {
-//         overflow: hidden;
-//         position: relative;
-//         padding: 20px;
-//         margin: 0px;
+            .image-arrow-child {
+                width: 100%;
+                margin: 20px;
+            }
+        }
+    }
 
-//         .purpose {
-//             width: 100%;
-//         }
+    .workspace {
+        overflow: hidden;
+        position: relative;
+        padding: 0px;
+        margin: 0px;
 
-//         .content {
-//             flex-direction: row;
-//             width: 100%;
+        .purpose {
+            width: 100%;
+        }
 
-//             .content-2 {
-//                 width: 100vw;
+        .content {
+            flex-direction: column;
+            width: 100%;
 
-//                 .sub-child-2 {
-//                     .goal-holder {
-//                         flex-direction: column;
-//                         height: 25vh;
+            .content-2 {
+                width: 100vw;
+
+                .sub-child-2 {
+                    .goal-holder {
+                        flex-direction: column;
+                        height: 35vh;
 
 
-//                         select {
-//                             flex: 2;
-//                             height: 200px;
-//                         }
+                        select {
+                            flex: 2;
+                            height: 200px;
+                        }
 
-//                         .p1 {
-//                             margin: 12px 0px;
-//                         }
-//                     }
+                        .p1 {
+                            margin: 12px 0px;
+                        }
+                    }
 
-//                     .search-holder {
-//                         .pen {
-//                             width: 90%;
-//                         }
-//                     }
-//                 }
+                    .search-holder {
+                        .pen {
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
-//                 .sub-child-3 {
-//                     overflow: hidden;
-//                     position: relative;
+@media screen and (max-width: 768px) {
+    .parent {
 
-//                     .sub-child-1 {
-//                         padding: 20px;
-//                         width: 100vw;
+    }
 
-//                     }
-//                 }
+    .workspace {
+        overflow: hidden;
+        position: relative;
+        padding: 20px;
+        margin: 0px;
 
-//             }
-//         }
-//     }
-// }
+        .purpose {
+            width: 100%;
+        }
 
-// @media screen and (max-width: 1024px) {
-//       .workspace {
-//         overflow: hidden;
-//         position: relative;
-//         padding: 20px;
-//         margin: 0px;
+        .content {
+            flex-direction: row;
+            width: 100%;
 
-//         .content {
-//             flex-direction: row;
-//             width: 100%;
+            .content-2 {
+                width: 100vw;
 
-//             .content-2{
-//                 width: 100vw;
+                .sub-child-2 {
+                    .goal-holder {
+                        flex-direction: column;
+                        height: 25vh;
 
-//                 .sub-child-3{
-//                     .sub-child-1{
-//                         padding: 20px;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+
+                        select {
+                            flex: 2;
+                            height: 200px;
+                        }
+
+                        .p1 {
+                            margin: 12px 0px;
+                        }
+                    }
+
+                    .search-holder {
+                        .pen {
+                            width: 90%;
+                        }
+                    }
+                }
+
+                .sub-child-3 {
+                    overflow: hidden;
+                    position: relative;
+
+                    .sub-child-1 {
+                        padding: 20px;
+                        width: 100vw;
+
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+      .workspace {
+        overflow: hidden;
+        position: relative;
+        padding: 20px;
+        margin: 0px;
+
+        .content {
+            flex-direction: row;
+            width: 100%;
+
+            .content-2{
+                width: 100vw;
+
+                .sub-child-3{
+                    .sub-child-1{
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

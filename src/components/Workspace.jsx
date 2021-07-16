@@ -199,8 +199,8 @@ const Workspace = () => {
                         </div>
                         <div className="sub-child-1">
                             <div className="c1">
-                                {/* <Histogram xLabels={labels} yValues={data} width="300" height="400" options={options} /> */}
-                                <Bar data={datax} options={optionsx} height={300}  width={500}/>
+                                <Histogram xLabels={labels} yValues={data}  options={options} />
+                                {/* <Bar data={datax} options={optionsx} height={300}  width={500}/> */}
                             </div>
                             <div className="c2">
                                 <div className="title-holder">
