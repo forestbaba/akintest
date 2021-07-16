@@ -10,6 +10,10 @@ const Workspace = () => {
     const [res, setRes] = useState([])
     const [current, setCurrent] = useState([])
 
+    const labels = ['2016', '2017', '2018', '2019', '2020'];
+    const data = [600, 700, 800, 900, 1000];
+    const options = { fillColor: '#f39c9a', strokeColor: '#d3eee3' };
+
     const data2 = [
         { title: "On track", tag: "22.2% in the past 30 days", tagtype: "ontrack" },
         { title: "Behind", tag: "12.25% in the past 30 days", tagtype: "behind" },
@@ -58,20 +62,20 @@ const Workspace = () => {
                 data: [30],
             },
             
-            {
-                stack: arbitraryStackKey1,
+            // {
+            //     // stack: arbitraryStackKey1,
 
-                label: '# of Green Votes',
-                data: [60],
-                backgroundColor: '#ffe3c8',
-            },
-            {
-                stack: arbitraryStackKey1,
+            //     label: '# of Green Votes',
+            //     data: [60],
+            //     backgroundColor: '#ffe3c8',
+            // },
+            // {
+            //     // stack: arbitraryStackKey1,
 
-                label: '# of Green Votes',
-                data: [30],
-                backgroundColor: '#d3eee3',
-            },
+            //     label: '# of Green Votes',
+            //     data: [30],
+            //     backgroundColor: '#d3eee3',
+            // },
 
             
             {
@@ -120,18 +124,18 @@ const Workspace = () => {
                 stack: arbitraryStackKey4,
                 label: '# of Red Votes',
                 backgroundColor: '#f39c9a',
-                data: [70],
+                data: [70, 30, 70],
             },
             
             {
-                stack: arbitraryStackKey4,
+                // stack: arbitraryStackKey4,
 
                 label: '# of Green Votes',
-                data: [40],
+                data: [40, 30, 20, 10],
                 backgroundColor: '#ffe3c8',
             },
             {
-                stack: arbitraryStackKey4,
+                // stack: arbitraryStackKey4,
 
                 label: '# of Green Votes',
                 data: [50],
