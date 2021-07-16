@@ -687,7 +687,17 @@
                         }
                     }
                 }
+
+                .sub-child-3 {
+                    .sub-child-1{
+                        .c2 {
+                            margin-left: 0px;
+                            margin-top: 50px;
+                        }
+                    }
+                } 
             }
+            
         }
     }
 }
@@ -708,7 +718,7 @@
         }
 
         .content {
-            flex-direction: row;
+            flex-direction: column;
             width: 100%;
 
             .content-2 {
@@ -717,7 +727,7 @@
                 .sub-child-2 {
                     .goal-holder {
                         flex-direction: column;
-                        height: 25vh;
+                        height: 35vh;
 
 
                         select {
@@ -740,10 +750,11 @@
                 .sub-child-3 {
                     overflow: hidden;
                     position: relative;
-
+                   
                     .sub-child-1 {
                         padding: 20px;
                         width: 100vw;
+                        flex-direction: column;
 
                     }
                 }
@@ -761,7 +772,7 @@
         margin: 0px;
 
         .content {
-            flex-direction: row;
+            flex-direction: column;
             width: 100%;
 
             .content-2{
